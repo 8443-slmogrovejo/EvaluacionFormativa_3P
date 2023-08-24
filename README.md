@@ -12,7 +12,7 @@ http://localhost:8090/api/tasks
 
 # Operaciones CRUD
 Todas las operaciones se realizarán con Visual Studio Code mediante Thunder Client
-# Para CREATE
+## Para CREATE
 En el POST de Thunder Client en el BODY:
 {
   "id": 1,
@@ -23,11 +23,11 @@ En el POST de Thunder Client en el BODY:
 }
 
 
-# Para READ
+## Para READ
 Conectamos a la dirección mediante GET
 http://localhost:8090/api/tasks
 
-# Para UPDATE
+## Para UPDATE
 Conectamos a la dirección mediante PUT, en el BODY:
 {
   "id": 1,
@@ -37,7 +37,7 @@ Conectamos a la dirección mediante PUT, en el BODY:
   "estado":"Inactivo"
 }
 
-# Para DELETE
+## Para DELETE
 Conectamos a la dirección mediante DELETE especificando el ID a borrar:
 http://localhost:8090/api/tasks/1
 
